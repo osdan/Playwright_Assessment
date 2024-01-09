@@ -1,0 +1,23 @@
+Record mode
+    npx playwright codegen
+
+Run all the tests
+    npx playwright test 
+
+Run a single test file
+    npx playwright test tests/name_of_test.spec.ts
+
+Run files that have testing in the file name
+    npx playwright test Testing
+
+Run tests that are in line XXX in my name_of_test.ts
+    npx playwright test name_of_test.ts:XXX
+
+Disable parallelization
+    npx playwright test --workers=1
+
+Save cookies in json file
+    npx playwright codegen --save-storage=auth.json
+
+Load cookies from json file
+    npx playwright codegen --load-storage=/Playwright-TypeScript/tests/Intermediate/JSON/auth.json pinterest.com.mx

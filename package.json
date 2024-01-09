@@ -1,0 +1,16 @@
+{
+  "name": "playwright-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "apex": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "Playwright Assessment",
+  "license": "APEX",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.10.0"
+  }
+}
